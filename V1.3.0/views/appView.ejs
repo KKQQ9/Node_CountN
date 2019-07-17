@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <meta charset="UTF-8">
+          <meta name="author" content="Cassie">
+          <meta name="viewport" content="width=device-width,initial-scale=1">
+          <meta name="keywords" content="">
+          <title>计算N的因数返回结果</title>
+          <link rel="stylesheet" href="/css/style.css">
+          <link rel="stylesheet" href="/css/result.css">  
+          </head>
+     <body>
+          <div class="container">
+                <a href="/">点击返回输入页面</a>
+               当前计算运行毫秒数为: <%= t %>
+               <ul>
+                    <% for(let i = 0;i < result.length;i++){%>
+                    <li>因数<%= i %>: <%= result[i] %></li>
+                    <% } %>
+               </ul>
+          </div>
+     </body>
+</html>
